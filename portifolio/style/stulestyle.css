@@ -52,7 +52,6 @@ body {
 /* -------------------- FIM DO HEADER ------------------- */
 
 
-
 /* -------------------- INÍCIO DO MAiN ------------------ */
 /* -------------------- INÍCIO DO SECTION-1 ------------------ */
 
@@ -133,6 +132,7 @@ body {
     text-align: justify;
 }
 
+
 /* -------------------- FIM DO SECTION-2 --------------------- */
 
 
@@ -211,3 +211,48 @@ body {
     font-size: 0.8rem;
 }
 /* -------------------- FIM DO FOOTER --------------------- */
+
+
+
+
+/* -------------------- INÍCIO DO MEDIA QUERIE ------------------ */
+
+@media (max-width: 1050px) {
+    .section-1 h1 {
+        font-size: 2rem;
+    }
+
+    .section-1 p {
+        font-size: 0.8rem;
+    }
+
+    .section-2 {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .section-2 div {
+        max-width: 80%;
+        padding-right: 0;
+    }
+
+    .section-2 div h2 {
+        font-size: 2.2rem;
+        padding-bottom: 20px;
+    }
+
+    .section-2 img {
+        width: 80%;
+        padding-top: 40px;
+    }
+
+    .project-list img{
+        width: 26%;
+    }
+}
+
+/* -------------------- FIM DO MEDIA QUERIE --------------------- */
+
