@@ -9,11 +9,43 @@ a {
     color:#3c96ed
 }
 
-html{
+body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color:#fafafa;
     height: 100%;
     width: 100%;
     line-height: 18px;
+    margin: 0ox;
+    padding: 0px;
+}
+
+#wrapper {
+    height: 100vh;
+}
+
+#container {
+    margin: 0 auto;
+    min-height: 100%;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.colum {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.left {
+    background-image: url("../images/main-foto.png");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    padding-bottom: 50px;
+}
+
+.right {
+    padding-left: 20px;
 }
